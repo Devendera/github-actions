@@ -6,7 +6,7 @@ jobs:
       
       steps:
         - name: get-repo-code
-          uses: actions/checkout@v4
+          uses: actions/setup-node@v4
         
         - name: Validate Html file
           run:  test -f index.html
