@@ -1,1 +1,3 @@
 # github-actions
+
+https://www.scaler.com/event/master-agentic-engineering-and-workflow-automation-12b/?utm_source=ads&utm_medium=googleyoutube&utm_campaign=perf_scaler-dsml_livemasterclass_ads_googleyoutube_demand-gen_affinity_india_25-44_primary&utm_content=affinity&utm_term=aiml_livemasterclass-20261124-e4720-c4_video_white_agentic-workflow-automation_ai-adaptify_infographics_bdec2026&param1=832150796587&gad_source=2&gad_campaignid=23840836291&gclid=EAIaIQobChMIzNq67M-bmAMV_RSDAx00_gGTEAEYASAAEgJGLvD_BwE

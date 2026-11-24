@@ -1,0 +1,1 @@
+console.log("Hello, World! This is a sample GitHub Actions workflow script.");
