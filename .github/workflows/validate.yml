@@ -11,11 +11,13 @@ jobs:
         - name: Setup Node.js 24
           uses: actions/setup-node@v4
           with:
-          node-version: 24
-          cache: 'npm'   # Cache node_modules for faster builds
-        
-        - name: Validate Html file
-          run:  test -f index.html
+            node-version: 24
 
-        - name: Validate js file
-          run:  test -f script.js
+        - name: Install HTML validator
+          run: npm install --global html-validate
+        
+        - name: Validate HTML file
+          run: html-validate .github/workflows/index.html
+
+        - name: Validate JavaScript file
+          run: node --check .github/workflows/script.js
