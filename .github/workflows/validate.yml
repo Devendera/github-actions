@@ -1,6 +1,6 @@
 name: Validate files
 on: push
-  jobs:
+jobs:
     validate-file:
       runs-on: ubuntu-latest
       
