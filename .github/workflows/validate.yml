@@ -6,7 +6,13 @@ jobs:
       
       steps:
         - name: get-repo-code
+          uses: actions/checkout@v4
+
+        - name: Setup Node.js 24
           uses: actions/setup-node@v4
+          with:
+          node-version: 24
+          cache: 'npm'   # Cache node_modules for faster builds
         
         - name: Validate Html file
           run:  test -f index.html
